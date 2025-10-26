@@ -50,6 +50,7 @@ python main.py
 ✅ JSON saved to output_images/sample_invoice_ru.json
 ```
 
+### Output json data :
 
 ```json
 {
