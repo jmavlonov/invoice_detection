@@ -125,9 +125,18 @@ invoice_parser/
 │   ├── detector.py             # Detects whether a stamp exists
 │   └── ordering.py             # Determines stamp/text layer order
 │
-└── pipeline/
-    └── extract_invoice.py      # Main pipeline orchestrator
-
+├── pipeline/
+│   └── extract_invoice.py      # Main pipeline orchestrator
+│
+├── images/                     # Folder for input invoice images
+│   ├── sample_invoice.webp
+│   ├── invoice_test1.jpg
+│   └── invoice_test2.png
+│
+└── output_json_data/              # Folder for AI-generated JSON results
+    ├── sample_invoice_ru.json
+    ├── invoice_test1_ru.json
+    └── invoice_test2_ru.json
 
 ```
 
