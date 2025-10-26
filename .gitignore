@@ -1,0 +1,69 @@
+# =============================
+# 🐍 Python loyihalar uchun umumiy qoidalar
+# =============================
+
+# 🔹 Python cache fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# 🔹 Environment fayllar
+.env
+.env.local
+.env.*.local
+
+# 🔹 MacOS (agar Mac ishlatayotgan bo‘lsang)
+.DS_Store
+
+# 🔹 IDE sozlamalari
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🔹 Log va vaqtinchalik fayllar
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 🔹 JSON chiqishlar (output)
+output_images/
+output/
+results/
+*.json
+
+# 🔹 Rasm/namuna fayllar (agar sinov uchun ishlatilsa)
+images/
+samples/
+test_images/
+
+# 🔹 Model yoki weight fayllar (agar ishlatilsa)
+*.h5
+*.pkl
+*.ckpt
+
+# 🔹 Jupyter notebook checkpointlar
+.ipynb_checkpoints/
+
+# 🔹 Kompilyatsiya yoki build fayllari
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 🔹 OS fayllar
+Thumbs.db
+desktop.ini
+
+# 🔹 Cache va temp papkalar
+.cache/
+.tmp/
+__temp__/
