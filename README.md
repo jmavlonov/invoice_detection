@@ -53,13 +53,51 @@ python main.py
 
 ```json
 {
-    "vendor": "ООО ТехноТрейд",
-    "invoice_number": "INV-2045",
-    "date": "2025-03-12",
-    "total_amount": "3 200,00 ¥",
+    "serial_number": "661618766971",
+    "invoice_number": "50843024",
+    "invoice_code": "033001600211",
+    "issue_date": "1 апреля 2017 г.",
+    "buyer": {
+        "name": "Ханчжоу Тяньжань Газовая Группа ООО",
+        "tax_id": "",
+        "address_phone": "",
+        "bank_account": ""
+    },
+    "seller": {
+        "name": "Ханчжоу Айсинь Ханчжоу Тяньжань Информация ООО",
+        "tax_id": "91330106555199156Q",
+        "address_phone": "Ханчжоу, район Цзянган, улица Миньцзянь, 30, 0571-81029350",
+        "bank_account": "Ханчжоу Банк, 1202000590090032278"
+    },
+    "items": [
+        {
+            "product_service": "Сервисный сбор",
+            "model": "",
+            "unit": "",
+            "quantity": "10",
+            "unit_price": "0.94393623",
+            "amount_without_tax": "9.43",
+            "tax_rate": "6%",
+            "tax_amount": "0.57"
+        }
+    ],
+    "total_without_tax": "¥9.43",
+    "total_tax": "¥0.57",
+    "total_with_tax": "¥10.00",
+    "total_in_words": "",
+    "drawer": "Айсиньчжу",
+    "checker": "",
+    "remarks": "",
+    "_meta": {
+        "language": "Russian",
+        "currency": "¥",
+        "verified": true,
+        "source": "image"
+    },
     "stamp_analysis": {
         "seal_detected": true,
         "ordering": "stamp_on_top",
+        "confidence": 0.8,
         "authenticity": "likely_genuine",
         "authenticity_score": 0.9
     }
